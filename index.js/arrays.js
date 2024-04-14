@@ -38,10 +38,10 @@
       combinedArr; */
 
       // Arrays Method Part 2
-      let arr = ["Javascript", "Python", "Ruby", "Java"];
+      /* let arr = ["Javascript", "Python", "Ruby", "Java"];
       let arr2 = arr.slice("Python", "Ruby");
       let combinedArr = arr.concat(arr2);
-      combinedArr
+      combinedArr*/
       /* "value" is passed to any data types, while "references" is an object that can be passed to any data types. i understand the useage of both. however i do not know how best to explain it. */
 
       // Arrays Method Part 3
@@ -55,5 +55,43 @@
       // 8. "include" function is used to an element to an Array. arr.[3] = "lanre";
       // 9. the "indexOf" function is use to determine the index number of an elemenmt in an Array.
       // 10. [] === [] will return false because it is a falsely value.
+
+      // Arrays iterations
+      let people = ["Greg", "Mary", "Devon", "James"];
+      people;
+      
+      for (let i = 0; i < people.length; i++) {
+          console.log(i);
+      }
+
+      people.shift();
+      people.pop();
+      people.unshift("Matt");
+      people.push("Dagogo");
+
+      
+     for (i = 0; i < people.length; i++) {
+          if (i > 1);
+          break;
+          console.log("Breaking out of the loop"[i]);
+     }
+
+     let persons = people.slice(2);
+     people.indexOf("Mary");
+     people.indexOf("Foo");
+
+     people.splice(2,1, "Elizabeth", "Artie")
+     let withBob = people.concat("Bob");
+     withBob;
+
+
+     
+
+      
+
+
+
+      
+     
 
       

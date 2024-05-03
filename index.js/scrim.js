@@ -79,15 +79,7 @@ function randomFood() {
 randomFood()
 
 
-/*function map(array, callback) {
-    let results = array.concat(callback)
-    for (let i = 0; i < callback.length; i++) {
-        //return callback[i]
-        console.log(callback[i])
-    }
-}
 
-map()*/
 
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 function sortNumbers() {
@@ -100,3 +92,14 @@ function sortNumbers() {
     }
 }
 sortNumbers()
+
+
+/*function map(array, callback) {
+    let results = array.concat(callback)
+    for (let i = 0; i < callback.length; i++) {
+        //return callback[i]
+        console.log(callback[i])
+    }
+}
+
+map()*/

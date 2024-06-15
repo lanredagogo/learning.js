@@ -63,31 +63,30 @@ myInfo["occupation"]
 myInfo.hobby = "reading";
 delete myInfo.occupation;
 
-/*function myName() {
-    let fullName = "lanre dagogo";
-    console.log(fullName);
+
+function myName() {
+    let fullName = "Lanre Adebayo Dagogo";
+    console.log(fullName)
 }
 
-let favoriteFood = ["pizza", "icream"]
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+numbers.slice(5, 9)
+
+function returnSecondHalf() {
+    console.log(numbers.slice(4, 9)) ;
+   
+}
+
+function returnFirstHalf() {
+    console.log(numbers.slice(0, 4));
+    
+}
+
+
 function randomFood() {
-    let randomInFood = Math.floor(Math.random() * favoriteFood.length)
-    console.log(favoriteFood[randomInFood])
+    let favoriteFood = ["pizza", "ice cream"]
+    let randomFoodFavorite = Math.floor(Math.random()* favoriteFood.length)
+    console.log(favoriteFood[randomFoodFavorite])
 }
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-function displayOddNumbers() {
-    for (let i = numbers; i > numbers.length; i++) {
-        if (i % 2 !== 0) {
-            console.log(numbers[i])
-        }
-    }
-}
-
-function evenNumbers() {
-    for (let i = numbers; i > numbers.length; i++) {
-        if (i % 2 === 0) {
-            console.log(numbers[i])
-        }
-    }
-}*/

@@ -73,13 +73,46 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 numbers.slice(5, 9)
 
 function returnSecondHalf() {
-    console.log(numbers.slice(4, 9)) ;
+    return numbers.slice(numbers.length/2)
    
 }
 
+
 function returnFirstHalf() {
-    console.log(numbers.slice(0, 4));
+    return numbers.slice(0, numbers.length/2);
     
+}
+
+function firstEvenNumbers() {
+    for (let i = numbers; i > numbers.length; i++) {
+        if (numbers[i] % 2 === 0) {
+            return numbers.length[i];
+        }
+    }
+}
+
+function displayEvenNumbers() {
+    for (let i = numbers; i > numbers.length; i++) {
+        if (numbers[i] % 2 === 0) {
+            console.log(numbers.length[i]);
+        }
+    }
+}
+
+function firstOddNumbers() {
+    for (let i = numbers; i > numbers.length; i++) {
+        if (numbers[i] % 2 !== 0) {
+            return numbers.length[i];
+        }
+    }
+}
+
+function displayOddNumbers() {
+    for (let i = numbers; i > numbers.length; i++) {
+        if (numbers[i] % 2 !== 0) {
+            console.log(numbers.length[i]);
+        }
+    }
 }
 
 
@@ -88,5 +121,91 @@ function randomFood() {
     let randomFoodFavorite = Math.floor(Math.random()* favoriteFood.length)
     console.log(favoriteFood[randomFoodFavorite])
 }
+
+
+
+
+
+function add(number1, number2) {
+    sum = number1 + number2;
+    console.log(sum)
+}
+
+add(4, 5)
+
+function subtract(number1, number2) {
+    sum = number1 - number2;
+    console.log(sum)
+}
+subtract(9, 3)
+
+function multiply(number1, number2) {
+    sum = number1 * number2;
+    console.log(sum)
+}
+multiply(7, 9)
+
+function divide(number1, number2) {
+    sum = number1 / number2;
+    console.log(sum)
+}
+divide(20, 2)
+
+let myNickName = "dagogo"
+function sayHello(title) {
+    if (title === myNickName) {
+        console.log("Hello")
+    } else {
+        console.log("Hello " + myNickName)
+    }
+}
+sayHello()
+
+function average(array){
+    let sum = 0;
+    for (let i = sum; i < array.length; i++ ) {
+        console.log(array[i].length / 2)
+    }
+}
+
+
+function createStudent(firstName, lastName) {
+   let fullName = {
+    firstName: "Lanre", lastName: "dagogo"
+   }
+   for (let key in fullName) {
+    console.log(fullName[key])
+   }
+   for (let key in fullName) {
+    console.log(key)
+   }
+}
+createStudent()
+
+
+let student1 = "timi"
+let student2 = "dare"
+let student3 = "oghale"
+let students = [student1, student2, student3];
+
+function student() {
+    console.log(students)
+}
+student()
+
+function findStudentByFirstName(timi) {
+   for (let i = students; i > students.length; i++ ) {
+    if ( "timi" === students[key]) {
+        //console.log(true);
+        return true
+    } else {
+        //console.log(false);
+        return false
+    }
+   }
+}
+
+findStudentByFirstName()
+
 
 
